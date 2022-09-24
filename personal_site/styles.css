@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    background-color: #C1F8CF;
+}
+
+.cloud-1 {
+        display: inline-block;
+        position: absolute;
+        top: 40px;
+        left: 71px;
+
+}
+
+.cloud-2 {
+        display: inline-block;
+        position: absolute;
+        top: 225px;
+        right: 120px;
+}
+
+.default_rule {
+        border-style: none;
+        border-top-style: dotted;
+        border-color: #b0c2c2;
+        border-width: 0.4em;
+        width: 2.5%;
+
+
+
+}
+
+.grey_em {
+    color: lightslategray;
+}
+
+header {
+    background-color: #caf4e9;
+}
+.heading {
+    border-style: none;
+    padding: 5%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    text-align: center;
+    font-family:"Merriweather Sans", sans-serif;
+}
+
+.intro {
+    color: #11999E;
+    font-family:'Square Peg', cursive;
+    font-size: 8.9em; 
+    font-style: italic;
+    font-weight: lighter;
+    margin-bottom: 1%;
+    margin-top: 0;
+    word-spacing: 0.05em;
+}
+
+.intro-subtitle {
+    font-size: 1.05em;
+    padding-top: 1%;
+    margin-bottom: 0.5;
+    word-spacing: 0.03em;
+}
+
+.navbar-custom {
+    background-color: blanchedalmond;
+    border-color: #424242;
+    border-style: inset inset;
+    border-width: 0.2em 0.2em;
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.15rem;
+    height: 1.07em;
+    margin: auto;
+    padding: 0.5em;
+    position: fixed;
+    text-align: right;
+    top: 0;
+    width: 100%;
+
+}
+
+
+.navbar span {
+    border-style: groove;
+    border-width: 0.1em;
+    border-color: #424242;
+    padding: 0.6rem;
+    width: auto;
+    white-space: nowrap;
+    margin: 2em;
+    
+}
+
+/* .nav-ruler {
+
+    border-color: #424242;
+    border-width: 0.2em 0.2em;
+    border-style: none;
+    border-top-style: inset;
+    margin: 0;
+}           */
+
+.river{
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='100' ry='100' stroke='%23EC3463' stroke-width='7' stroke-dasharray='50%25%2c 13%25' stroke-dashoffset='86' stroke-linecap='butt'/%3e%3c/svg%3e");
+border-radius: 550px;    
+    width: 150px;
+    height: 150px;
+}
